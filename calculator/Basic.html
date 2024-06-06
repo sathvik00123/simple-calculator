@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basics</title>
+	<link href="Basic.css" rel="stylesheet">
+</head>
+<body>
+	<div id="main">
+		<div id="display"></div>
+		<div id="bottom">
+			<button class="click-button" id="clear" onclick="deleteAll()">Clr</button>
+			<button class="click-button" id="cancel" onclick="deleteOne()">Cancel</button>
+			<button class="click-button" id="b-1" onclick="getNumber('1')">1</button>
+			<button class="click-button" id="b-2" onclick="getNumber('2')">2</button>
+			<button class="click-button" id="b-3" onclick="getNumber('3')">3</button>
+			<button class="click-button" id="b-4" onclick="getNumber('4')">4</button>
+			<button class="click-button" id="b-5" onclick="getNumber('5')">5</button>
+			<button class="click-button" id="b-6" onclick="getNumber('6')">6</button>
+			<button class="click-button" id="b-7" onclick="getNumber('7')">7</button>
+			<button class="click-button" id="b-8" onclick="getNumber('8')">8</button>
+			<button class="click-button" id="b-9" onclick="getNumber('9')">9</button>
+			<button class="click-button" id="b-0" onclick="getNumber('0')">0</button>
+			<button class="click-button" id="div" onclick="opr('/')">/</button>
+			<button class="click-button" id="mul" onclick="opr('x')">x</button>
+			<button class="click-button" id="add" onclick="opr('+')">+</button>
+			<button class="click-button" id="sub" onclick="opr('-')">-</button>
+			<button class="click-button" id="eql" onclick="calculate('=')">=</button>
+			<button class="click-button" id="dot" onclick="getNumber('.')">.</button>
+		</div>
+	</div>
+	<script src="./Basic.js"></script>
+</body>
+</html>

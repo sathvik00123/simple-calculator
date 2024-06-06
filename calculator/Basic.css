@@ -1,0 +1,44 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+
+#main{
+	background-color: rgb(250, 158, 158);
+	width: 20%;
+	padding: 2rem;
+}
+
+#display{
+	border: 1px solid black;
+	height: 3rem;
+	width: 100%;
+	border-radius: 5px;
+	background-color: rgb(172, 172, 172);
+	font-weight: 600;
+	font-size: 1.5rem;
+	padding: 6px;
+}
+
+#bottom{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 1;
+}
+
+.click-button{
+	margin: 1rem;
+	height: 2rem;
+	width: 4rem;
+	text-align: center;
+	font-size:medium;
+}
+
+#eql{
+	background-color:rgb(88, 47, 47);
+	color: white;
+}
